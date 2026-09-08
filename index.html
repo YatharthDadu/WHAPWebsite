@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tapestry · Tapestry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"/>
+<link rel="stylesheet" href="style.css"/>
+<script>const t=localStorage.getItem('tapestry-theme');if(t)document.documentElement.setAttribute('data-theme',t);</script>
+</head>
+<body>
+<header><div class="wrap" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center">
+  <a class="brand" href="index.html">Tapestry<span class="sub">AP World History</span></a>
+  <nav class="crumbs">Home</nav>
+  <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode"><img src="toggle-icon.png" alt="Toggle Theme" style="width:24px;height:24px;border-radius:50%;display:block;box-shadow:0 0 2px rgba(0,0,0,0.5);" /></button>
+</div></header>
+<main>
+  <div class="hero">
+    <div class="kicker">College Board aligned</div>
+    <h1 style="font-size:2.4rem;margin-top:6px">Tapestry</h1>
+    <p class="muted" style="margin-top:10px;max-width:40rem">Interactive timelines and checkpoint quizzes for every topic in AP World History: Modern. Start with a time period, open a unit, then work each topic card-by-card.</p>
+  </div>
+  <h2 style="margin:28px 0 8px">Four time periods</h2>
+    <div class="grid two">
+    
+      <a class="card" href="period-1.html">
+        <span class="badge">c. 1200 – c. 1450</span>
+        <h2 style="margin-top:10px">Period 1</h2>
+        <p class="muted" style="margin-top:6px">The Global Tapestry and Networks of Exchange</p>
+        <p style="margin-top:10px;font-weight:650;color:var(--accent)">Units 1 · 2</p>
+      </a>
+      <a class="card" href="period-2.html">
+        <span class="badge">c. 1450 – c. 1750</span>
+        <h2 style="margin-top:10px">Period 2</h2>
+        <p class="muted" style="margin-top:6px">Land-Based Empires and Transoceanic Interconnections</p>
+        <p style="margin-top:10px;font-weight:650;color:var(--accent)">Units 3 · 4</p>
+      </a>
+      <a class="card" href="period-3.html">
+        <span class="badge">c. 1750 – c. 1900</span>
+        <h2 style="margin-top:10px">Period 3</h2>
+        <p class="muted" style="margin-top:6px">Revolutions and the Consequences of Industrialization</p>
+        <p style="margin-top:10px;font-weight:650;color:var(--accent)">Units 5 · 6</p>
+      </a>
+      <a class="card" href="period-4.html">
+        <span class="badge">c. 1900 – present</span>
+        <h2 style="margin-top:10px">Period 4</h2>
+        <p class="muted" style="margin-top:6px">Global Conflict, Cold War, Decolonization, and Globalization</p>
+        <p style="margin-top:10px;font-weight:650;color:var(--accent)">Units 7 · 8 · 9</p>
+      </a>
+  </div></main>
+<footer>AP World History: Modern · CED-aligned classroom resource</footer>
+
+<script src="script.js"></script>
+</body></html>
